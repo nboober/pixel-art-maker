@@ -59,6 +59,8 @@ let table = document.querySelector("table");
 // When size is submitted by the user, call makeGrid()
 function makeGrid() {
 
+$("#pixelCanvas").children().remove();
+
   console.log(`Width: ${gridWidth}`);
   console.log(`Height: ${gridHeight}`);
   console.log(`Color of Block ${fillColor}`);
